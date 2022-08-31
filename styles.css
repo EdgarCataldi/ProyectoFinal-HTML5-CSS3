@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+   
+   
+}
+
+button{
+    background-color: #ffbf00;
+    border: 0px solid black;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+button:hover{
+    background-color: #ffbf00b9;
+    transition: all 0.4s linear;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.section-p{
+    font: 12px;
+    font-weight: 300;
+}
+.section-p-small{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+header{
+    margin : 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 50px;
+    background-color: rgba(24, 24, 24, 0.973);
+}
+
+.logo-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar, .navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list{
+    gap: 50px;
+}
+
+.navbar a{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.navbar-list li > a{
+   
+   font-size: 18px;
+   padding: 8px 20px;
+   border-radius: 3px;
+   transition: all 0.3s linear;
+}
+
+.navbar-list li >a:hover{
+    background-color: rgba(255, 255, 255, 0.082);
+    color: #EFB810;
+    transition: all 0.3s linear;
+}
+
+.section-container{
+    background-color: rgba(255, 255, 255, 0.082);
+}
+#hero{
+    background-color: black;
+}
+.text-container{
+    text-align: center;
+    color: white;
+}
+
+.hero-container img{
+    width: 220px;
+    
+}
+
+.buscar{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+    
+}
+.buscar:hover input{
+    width: 700px;
+}
+.buscar input:focus{
+    width: 700px;
+}
+.btn1{
+    display: flex;
+    top: 0;
+    right: 0;
+    background-color: rgb(238, 255, 0);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    flex-direction: column-reverse;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+#foto{
+max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+overflow: hidden;
+transition: 0.5s;
+object-fit: cover;
+
+}
+
+#foto:hover{
+    transform: scale(1.2);
+}
+#foto2:hover{
+    transform: scale(1.2);
+}
+#foto3:hover{
+    transform: scale(1.2);
+}
+#foto4:hover{
+    transform: scale(1.2);
+}
+#foto5:hover{
+    transform: scale(1.2);
+}
+#foto2{
+max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+overflow: hidden;
+transition: 0.5s;
+object-fit: cover;
+}
+#foto3{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+overflow: hidden;
+transition: 0.5s;
+object-fit: cover;
+}
+#foto4{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;
+overflow: hidden;
+transition: 0.5s;
+object-fit: cover;
+}
+
+#foto5{
+    max-width: 40%;
+height: auto;
+margin: 20px;
+padding: 5px;
+display: inline-block;
+margin: auto;overflow: hidden;
+transition: 0.5s;
+object-fit: cover;
+}
+
+.noticias-container img{
+    width: 50%;
+}
+
+.noticias-container h1, p{
+ text-align: center;
+ background-color: black;
+ color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+ 
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+  
+.fotos-juegos img{
+    width: 50%;
+    align-items: center;
+  
+}
+.juegos-container{
+    background-color: black
+}
+
+.text-juegos h1{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.boton-reservar a{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    color: #EFB810;
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    
+   
+}
+.boton-reservar a:hover{
+    background-color: rgb(66, 66, 66);
+
+}
+
+hr {
+    height: 0.5px;
+    background-color: black;
+    margin: 40px;
+    
+    
+  }
+#stray{
+    width: 50%;
+    float: left;
+}
+.reseñas-juegos p{
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+   
+}
+
+.capturas-juegos img{
+    width: 400px;
+    
+}
+
+#capturaflex{
+    display: flex;
+}
+
+#capturaflex h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: space-between;
+}
+
+.gameplay-stray h1{
+text-align: start;
+color: white;
+}
+
+#gameplay{
+    width: 50%;
+}
+.gameplay-stray h1{
+    text-align: center;
+}
+
+.reseñas-juegos-2 img{
+    width: 50%;
+    
+}
+.text-juegos-2 h1{
+   text-align: center;
+   color: white;
+}
+
+#capturas-2 img{
+   width: 25%;
+   float: right;
+}
